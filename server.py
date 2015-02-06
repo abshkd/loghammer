@@ -29,11 +29,6 @@ facility = ['kern', 'user', 'mail', 'daemon', 'auth', 'syslog', 'lpr', 'news',
             'uucp', 'cron', 'authpriv', 'ftp', 'ntp', 'audit', 'alert', 'at', 'local0',
             'local1', 'local2', 'local3', 'local4', 'local5', 'local6', 'local7',]
 fs_match = re.compile("<(.+)>(.*)", re.I)
-#class Echo(DatagramProtocol):
-#
-#    def datagramReceived(self, data, (host, port)):
-#        print "%r" % (data)
-#    #        self.transport.write(data, (host, port))
 
 #for TCP use by writing new protocol
 #class LoggingProtocol(LineReceiver):
